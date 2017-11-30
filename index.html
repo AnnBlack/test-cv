@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>John Smith Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" media="all" href="css/jquery.highlight.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.highlight.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		});
+	</script>
+</head>
+<body>
+	<main class="page-main">
+		<div class="page-main__wrapper">
+			<div class="cv">
+				<div class="cv-head">
+					<img src="img/pic_01.png" alt="cv-img" class="cv-img" />
+					<div class="cv-main">
+						<p class="cv-input">
+							<input type="text" id="name" value="Name" class="cv-name-input">
+							<span class="cv-input-icon"></span>
+						</p>
+						<p class="cv-input">
+							<input type="text" id="place" value="Country" class="cv-place-input">
+						  <span class="cv-input-icon"></span>
+						</p>
+						<p class="cv-input">
+							<input type="text" id="language" value="Language" class="cv-language-input">
+						  <span class="cv-input-icon"></span>
+						</p>
+						<ul class="cv-top-skills">
+							<li class="cv-top-skill">PHP<span class="close-icon  close-icon-closed"></span></li>
+							<li class="cv-top-skill">RUBY<span class="close-icon  close-icon-closed"></span></li>
+							<li class="cv-top-skill">JAVASCRIPT<span class="close-icon  close-icon-closed"></span></li>
+							<li class="cv-top-skill">ACTIONSCRIPT<span class="close-icon  close-icon-closed"></span></li>
+						</ul>
+						<p class="cv-add-skills">
+							<input type="text" id="skills" class="cv-skills-input" placeholder="Add skills">
+							<select name="skillsList" id="skillsList" class="cv-skills-select">
+								<option value="1" id="strong">Strong</option>
+								<option value="2" id="medium">Medium</option>
+								<option value="3" id="beginner">Beginner</option>
+							</select>
+							<span class="cv-add-link"></span>
+						</p>
+					</div>
+					<div class="cv-print">
+						<a href="#" class="cv-print-btn">Print this page</a>
+					</div>
+				</div>
+				<ul class="cv-content">
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							<span class="cv-title">Portfolio</span>
+							<span class="cv-subtitle">PHP, Ruby, Javascript</span>
+								<ul class="cv-skills-list">
+									<li><strong>NavalPlan</strong>, PHP, Ruby</li>
+									<li><strong>MyTime</strong>, Javascript</li>
+									<li><strong>Formidable</strong>, PHP, Ruby</li>
+									<li><strong>MyTime</strong>, Javascript</li>
+									<li><strong>Monsoon</strong>, ActionScript</li>
+								</ul>
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							<span class="cv-title">Experience</span>
+							<span class="cv-subtitle"></span>
+								<ul class="cv-skills-list">
+									<li><strong>PHP</strong>, 6 years</li>
+									<li><strong>Ruby</strong>, 7 years</li>
+									<li><strong>Javascript</strong>, 4 years</li>
+									<li><strong>ActionScript</strong>, 3 years</li>
+								</ul>
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper cv-code">
+							<span class="cv-title">Sample code and algorithms</span>
+<pre class="code" lang="php">
+<head>
+	<meta http-equiv="Content-Type" 
+	content="text/html; 
+	charset=utf-8">
+	<title>PHP Code Example</title>
+</head>
+<body>
+	<h1>PHP Code Example</h1>
+
+	<p><?php echo 'Hello World';?></p>
+
+	<p>This line is heighlighting</p>
+
+	<div class="foobar">
+		This    is    an
+	</div>
+</body>
+</html>
+</pre>
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper  cv-item-divided">
+							<span class="cv-title">Availability</span>
+							<span class="cv-availability">Full-time</span>
+						</div>
+						<div class="cv-item-wrapper">
+							<span class="cv-title">Preferred environment</span>
+							<span class="cv-subtitle  cv-subtitle--center">Git, GitHub, vim, emacs, Jenkins, Mac OSX</span>
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							<span class="cv-title">The most amazing …</span>
+							<p class="cv-note">
+								… Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua et dolore magna aliqua et dol ut labore et dolore
+								<span class="cv-note-sign">- Martin</span> 
+							</p>
+						</div>
+
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							<span class="cv-title">In clients I look for …</span>
+							<p class="cv-note">
+								… Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								<span class="cv-note-sign">- Martin</span>
+							</p>
+							
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							
+						</div>
+					</li>
+					<li class="cv-item">
+						<div class="cv-item-wrapper">
+							<span class="cv-title">Note</span>
+							<p class="cv-note">
+								… Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</li>
+				</ul>
+		  </div>
+		</div>
+	</main>
+	<script type="text/javascript">
+		$('#name').val("John Smith");
+		$('#place').val("Portland, Oregon, USA");
+		$('#language').val("English");
+	</script>
+	<script type="text/javascript">
+	  var skillsAddButton = document.querySelector(".cv-add-link");
+	  var skillsList = document.querySelector(".cv-top-skills");
+	  
+		skillsAddButton.addEventListener('click', function() {
+
+	    var skillsItemValue = $('#skills').val();
+	    var skillItem = document.createElement('li');
+	    skillItem.className = "cv-top-skill";
+	    skillItem.append(skillsItemValue);
+
+			if($("#skillsList option:selected").val() == 3){
+				skillItem.classList.add("cv-top-skill-beginner");
+			};
+
+			if($("#skillsList option:selected").val() == 2){
+				skillItem.classList.add("cv-top-skill-medium");
+			};
+
+			if($("#skillsList option:selected").val() == 1){
+				skillItem.classList.add("cv-top-skill-hard");
+			};
+
+			// Add close icon
+			var closeIcon = document.createElement('span');
+			closeIcon.classList.add("close-icon");
+			closeIcon.classList.add("close-icon-closed");
+
+			skillItem.append(closeIcon);
+
+			// Add events
+      skillItem.addEventListener('mouseover', myOverListener.bind(null, skillItem));
+    	skillItem.addEventListener('mouseout', myOutListener.bind(null, skillItem));
+    	closeIcon.addEventListener('click', myClickListener.bind(null, skillItem));
+
+	    skillsList.append(skillItem);
+	  });
+
+    var skillItemArray = document.querySelectorAll(".cv-top-skill");
+    
+		function myClickListener(skillItem, event) {
+
+		  skillItem.remove();
+	
+		}
+
+		function myOverListener(skillItem, event) {
+			var closeIcon = skillItem.getElementsByClassName( "close-icon" );
+			for(var i = 0; i < closeIcon.length; i++) {
+    		closeIcon[i].className = 'close-icon close-icon-opened';
+   		}
+		}
+
+		function myOutListener(skillItem, event) {
+			var closeIcon = skillItem.getElementsByClassName( "close-icon" );
+			for(var i = 0; i < closeIcon.length; i++) {
+    		closeIcon[i].className = 'close-icon close-icon-closed';
+   		}
+		}
+
+    for(var i = 0; i < skillItemArray.length; i++) {
+
+    	var skillItem = skillItemArray[i];
+
+    	skillItem.addEventListener('mouseover', myOverListener.bind(null, skillItem));
+    	skillItem.addEventListener('mouseout', myOutListener.bind(null, skillItem));
+
+    	var closeIcon = skillItem.getElementsByClassName( "close-icon" );
+    	for(var j = 0; j < closeIcon.length; j++) {
+    		closeIcon[j].addEventListener('click', myClickListener.bind(null, skillItem));
+   		}	
+   	}
+	</script>
+</body>
+</html>
